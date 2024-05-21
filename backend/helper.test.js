@@ -24,3 +24,6 @@ test("Sieve method", () => {
   expect(primesInRange(20, "sieve")).toEqual([]); //if only pass start value
   expect(primesInRange(30, 20, "sieve")).toEqual([]); //start>end it will return
 });
+test("Other method", () => {
+  expect(primesInRange(1, 10, "abcd")).toEqual([2,3,5,7]); //other methodNames
+});
