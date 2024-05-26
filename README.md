@@ -32,7 +32,7 @@ The CLI allows users to input data directly via the command line and retrieve pr
 ```bash
 cd clientInput
 npm install
-node input.js "startNumber" "endNumber" "methodName"
+node main.js "startNumber" "endNumber" "methodName"
 ```
 
 ## Backend
